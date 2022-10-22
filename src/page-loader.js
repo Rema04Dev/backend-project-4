@@ -2,8 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import cheerio, { html } from 'cheerio';
 import {
-  buildName, urlToFilename, urlToDirname, formatName,
-  loadContent
+  urlToFilename, urlToDirname, formatName,
 } from './util.js';
 import axios from 'axios';
 
